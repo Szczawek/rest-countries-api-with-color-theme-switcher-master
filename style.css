@@ -31,7 +31,7 @@ body {
   overflow-x: hidden;
   display: grid;
   font-family: "Nunito Sans", sans-serif;
-  grid-template-rows: 75px calc(100% - 75px);
+  grid-template-rows: 75px 1fr;
   min-height: 100vh;
   row-gap: 2em;
 }
