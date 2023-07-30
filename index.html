@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="dark">
+    <header class="light_dark">
+      <h1>Where in the word?</h1>
+      <div id="mode">
+        <i id="moon" class="fa-solid fa-moon"></i>
+        <p>Dark Mode</p>
+      </div>
+    </header>
+    <main>
+      <div class="new_window vanish">
+        <button class="light_dark" id="return">
+          <i class="fa-solid fa-arrow-left"></i>Back
+        </button>
+
+        <div class="container_window">
+          <img class="light_dark" id="window-img" src="" alt="" />
+          <div>
+            <header><h2 id="country-name"></h2></header>
+            <div class="info" id="data">
+              <p aria-valuetext="Native Name:"></p>
+              <p aria-valuetext="Population:"></p>
+              <p aria-valuetext="Region:"></p>
+              <p aria-valuetext="Sub Region:"></p>
+              <p aria-valuetext="Capital:"></p>
+              <p aria-valuetext="Top Level Domain:"></p>
+              <p aria-valuetext="Currencies:"></p>
+              <p aria-valuetext="Languages:"></p>
+            </div>
+            <div class="border" id="border-countries" name="border-countries"></div>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <label class="light_dark" for="word">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            placeholder="Search for a country..."
+            type="search"
+            id="word" />
+        </label>
+        <select class="light_dark" name="" id="">
+          <option value="check">Filter by Region</option>
+          <option value="Africa">Africa</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </nav>
+      <section></section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/c854c237f2.js"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
